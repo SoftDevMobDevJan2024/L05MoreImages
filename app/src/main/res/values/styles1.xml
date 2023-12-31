@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButton1" parent="Base.Theme.L05MoreImages2023">
+<!--        <item name="backgroundTint">@color/purple_500</item>-->
+        <item name="backgroundTint">@color/teal_700</item>
+    </style>
+
+</resources>
