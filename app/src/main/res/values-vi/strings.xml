@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">L05-NhiềuẢnh-2023</string>
+    <string name="slv">Thư viện Bang Victoria, slv.vic.gov.au</string>
+    <string name="theme">Đổi Theme</string>
+    <string name="station">Nhà Ga</string>
+    <string name="college">Trường học</string>
+    <string name="theatre">Rạp hát</string>
+    <string name="Light">Sáng</string>
+    <string name="Dark">Tối</string>
+</resources>

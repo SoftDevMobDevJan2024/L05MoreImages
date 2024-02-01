@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">L05-MoreImages-2023</string>
     <string name="slv">State Library of Victoria, slv.vic.gov.au</string>
+    <string name="theme">Change theme</string>
+    <string name="station">Station</string>
+    <string name="college">College</string>
+    <string name="theatre">Theatre</string>
+    <string name="Light">Light</string>
+    <string name="Dark">Dark</string>
 </resources>

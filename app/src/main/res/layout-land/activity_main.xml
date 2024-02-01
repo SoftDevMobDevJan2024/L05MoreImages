@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/material_dynamic_neutral_variant80"
+        >
+
+        <!--        <Switch-->
+        <!--            android:id="@+id/switchTheme"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:padding="8dp"-->
+        <!--            android:scaleX="1.5"-->
+        <!--            android:scaleY="1.5"-->
+        <!--            android:textSize="20sp"-->
+        <!--            android:thumbTint="@color/teal_700"-->
+        <!--            android:trackTint="@color/purple_700"></Switch>-->
+
+        <ToggleButton
+            android:id="@+id/theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:text="@string/theme"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="279dp"
+            android:layout_height="200dp"
+            android:contentDescription="station"
+            app:srcCompat="@drawable/station" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/station"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/CustomButton1"
+                android:layout_weight="1"
+                android:text="@string/station" />
+
+            <Button
+                android:id="@+id/college"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickCollege"
+                style="@style/CustomButton2"
+                android:text="College" />
+
+            <Button
+                android:id="@+id/theatre"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Theatre" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/slv" />
+
+</LinearLayout>
